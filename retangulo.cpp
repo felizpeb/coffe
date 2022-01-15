@@ -24,8 +24,12 @@ int main()
   
     area = (h*b);
     perimetro = (h*2)+(b*2);
-    diagonal = sqrt((pow(b,2))+(pow(h,2))); // pow utilizado para elevar um numero
-
+    diagonal = sqrt((pow(b,2))+(pow(h,2))); 
+    
+/* 
+sqrt() ele ira me retornar a raiz quadrada de um numero
+pow() vai elevar em potenciacao  x² ex: pow(x,2)
+*/
 
      cout << "\n A area do seu retangulo " << fixed << setprecision(4) << area; 
     cout << "\n O diagonal do seu retangulo " << fixed << setprecision(4) << diagonal; 

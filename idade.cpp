@@ -39,7 +39,7 @@ int main ()
 
     resultado = (id1 + id2)/2; // forumla para tirar a média
 
-    cout << setprecision(1); //Fixa em uma casas decimais
+    //cout << setprecision(1); //Fixa em uma casas decimais
 
 
     cout << "\n Informacoes da Primeira pessoa ";
@@ -51,5 +51,5 @@ int main ()
     cout << "\nNome: " << name2;
     cout << "\nIdade: " << id2; 
     cout << "\n";
-    cout << " A idade media de" << setw(10) << name1 << " e " << name2 << " e de " << resultado << " anos." << endl;
+    cout << " A idade media de" << fixed << setprecision(1) << name1 << " e " << name2 << " e de " << resultado << " anos." << endl;
 }
